@@ -16,12 +16,22 @@
   }
 }
 
+
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url("../public/img/landscape_space-15037.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Title{
+  font-size: 2.5em;
+}
+
+.btnHomePage:hover{
+  background: rgba(255,255,255,0.45);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255,255,255,0.225);
 }
